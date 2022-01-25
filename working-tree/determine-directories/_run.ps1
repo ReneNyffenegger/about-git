@@ -4,19 +4,20 @@ rmdir -re -fo repo*
 ../create-directories.ps1
 
 '
-    Top level absolute:' 
+    Top level absolute:'
 ../../../top-level-absolute.ps1
 
 '
-    Top level relative:' 
+    Top level relative:'
 ../../../top-level-relative.ps1
 
 '
     From top level to current directory'
-git rev-parse --show-prefix
+../../../cur-dir-relative-to-top-level.ps1
 
 '
     Git directory:'
-git rev-parse --git-dir
+../../../git-dir.ps1
+
 
 cd ../../..
