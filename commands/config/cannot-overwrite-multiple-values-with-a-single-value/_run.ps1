@@ -7,7 +7,7 @@ cd               repo
 . ../2.ps1
 . ../3.ps1
 
-cat .git/config
+. ../cat-config.ps1
 
 . ../4.ps1
 
