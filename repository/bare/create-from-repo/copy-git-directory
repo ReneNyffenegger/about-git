@@ -1,0 +1,3 @@
+cp -r repo/.git repo.git
+
+rm -rf repo

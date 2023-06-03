@@ -1,0 +1,22 @@
+pushd repo > /dev/null
+
+mkdir dir
+
+cat << EOF > dir/lorem-ibsum.txt
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+natoque penatibus et magnis dis parturient montes,
+nascetur ridiculus mus.
+EOF
+
+cat << EOF > file.txt
+It was the best of times, it was the worst of times, it was the age of wisdom,
+it was the age of foolishness, it was the epoch of belief, it was the epoch of
+incredulity, it was the season of light, it was the season of darkness, it was
+the spring of hope, it was the winter of despair
+EOF
+
+git add .
+git commit -q -m 'init repository'
+
+popd > /dev/null

@@ -1,0 +1,3 @@
+pushd repo.git > /dev/null
+git config --bool core.bare true
+popd > /dev/null

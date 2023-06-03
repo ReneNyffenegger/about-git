@@ -1,0 +1,8 @@
+git clone -q repo.git repo.cloned
+
+pushd repo.cloned > /dev/null
+tree
+
+git log --format=oneline
+
+popd > /dev/null
