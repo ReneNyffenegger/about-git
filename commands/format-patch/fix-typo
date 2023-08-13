@@ -1,0 +1,2 @@
+sed -i s/wrold/world/ main.c
+git commit . -q -m 'fix typo (wrold -> world)'

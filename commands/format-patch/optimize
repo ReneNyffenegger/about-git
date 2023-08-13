@@ -1,0 +1,2 @@
+sed -i 's/gcc main.c/gcc -O2 main.c/' Makefile
+git commit . -q -m 'Optimize with -O2'

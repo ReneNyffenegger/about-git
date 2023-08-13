@@ -1,0 +1,2 @@
+git clone -q repo repo.clone
+pushd repo.clone

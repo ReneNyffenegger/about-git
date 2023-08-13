@@ -1,0 +1,22 @@
+cat <<SRC > main.c
+#include <stdio.h>
+int main() {
+   printf("Hello wrold!\n");
+   return 0;
+}
+SRC
+
+cat <<MKF> Makefile
+all: prog
+
+main.o: main.c
+	@gcc -c main.c -o main.o
+
+prog: main.o
+	@gcc main.c -o prog
+MKF
+
+cat <<IGN> .gitignore
+prog
+main.o
+IGN

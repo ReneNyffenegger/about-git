@@ -1,0 +1,2 @@
+pushd repo
+git apply patches/*
