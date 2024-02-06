@@ -1,0 +1,4 @@
+git switch -q -c dev
+touch file-dev
+git add file-dev
+git commit -q file-dev -m '+ file-dev'

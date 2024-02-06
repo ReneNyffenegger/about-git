@@ -1,0 +1,3 @@
+touch file-1
+git add file-1
+git commit -q file-1 -m '+ file-1'
